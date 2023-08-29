@@ -98,7 +98,7 @@
 }
 .element_apresentation img{
   
-  margin-left: 10%;
+  width: 300px;
   
 }
 .element_apresentation h1{
@@ -150,6 +150,11 @@
   font-size: 20px;
   color: white;
   background-color: #C07212;
+}
+@media (min-width: 1680px){
+  .container_apresentation img{
+    width: 680px;
+  }
 }
 @media (max-width: 700px){
   .container {
