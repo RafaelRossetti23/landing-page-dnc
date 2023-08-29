@@ -6,7 +6,7 @@ import Apresentation from './components/apresentation.js'
 
 export default function Home() {
   return (
-    <div>
+    <div className={styles.container}>
       <Header />
       <Services />
       <Apresentation />

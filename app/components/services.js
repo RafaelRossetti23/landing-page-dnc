@@ -3,7 +3,7 @@ import styles from "../page.module.css"
 
 const Services = () => {
     return (
-        <div className={styles.container}>
+        <div className={styles.container_services}>
             <div className={styles.element_services}>
                 <ul>
                     <li>
